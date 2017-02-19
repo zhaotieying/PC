@@ -1,0 +1,1202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+a, a:hover, a:target, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff7300;
+}
+
+/*bodyFir*/
+
+.navTop {
+    width: 100%;
+    height: 29px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top {
+    width: 1190px;
+    height: 29px;
+    line-height: 29px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.top div {
+    float: left;
+}
+
+.top .welcome ul li {
+    float: left;
+}
+
+.top .myAli {
+    float: right;
+}
+
+.top .myAli ul li {
+    float: left;
+}
+
+.top .phone {
+    padding-left: 16px;
+    padding-right: 10px;
+    background: url("../img/sprit/alibar.png") no-repeat 0 -112px;
+}
+
+.top .welcome ul li {
+    padding-right: 10px;
+}
+
+.top .welcome ul li.welcomeFir {
+    padding-left: 11px;
+    background: url("../img/sprit/alibar.png") no-repeat -16px -145px;
+}
+
+.myAli ul li {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    position: relative;
+    padding: 0 8px;
+    background: url("../img/sprit/alibar.png") no-repeat right -145px;
+}
+
+.myAli ul li a.ccc {
+    position: relative;
+    padding-right: 9px;
+    background: url("../img/sprit/alibar.png") no-repeat right -58px;
+}
+
+.myAli ul li a span {
+    float: left;
+}
+
+.myAli ul li a span.special1 {
+    display: block;
+    width: 19px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #fff;
+    background: url("../img/sprit/alibar.png") no-repeat 0 7px;
+}
+
+.myAli ul li a span.special2 {
+    display: block;
+    font-size: 30px;
+    width: 19px;
+    height: 29px;
+    line-height: 39px;
+    text-align: center;
+    background: url("../img/sprit/homepage.png") no-repeat 0 -1379px;
+}
+
+.myAli ul li div {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    width: 380px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.myAli ul li:hover div {
+    display: block;
+    z-index: 999;
+    zoom: 1;
+}
+
+.myAli ul li div dl {
+    display: block;
+    float: left;
+    padding: 3px 12px 3px;
+}
+
+.myAli ul li div dl dt {
+    font-weight: bold;
+}
+
+.myAli ul li div dl dt, .myAli ul li div dl dd {
+    height: 27px;
+    line-height: 27px;
+}
+
+.navMid {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 149px;
+    box-shadow: inset 0 -12px 5px -10px #e7e7e7;
+}
+
+.navMid .mid {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.navMid .mid .mid1 {
+    height: 74px;
+    margin-bottom: 15px;
+
+}
+
+.navMid .mid .mid2 {
+    height: 40px;
+}
+
+.navMid .mid .mid1 div, .navMid .mid .mid1 a {
+    float: left;
+}
+
+.navMid .mid .mid1 .left {
+    margin-right: 56px;
+}
+
+.navMid .mid .mid1 .left a {
+    width: 205px;
+    height: 38px;
+    margin-top: 18px;
+    background: url("../img/logo/logo.png") no-repeat center;
+}
+
+.navMid .mid .mid1 .middle ul li {
+    margin-bottom: 5px;
+}
+
+.navMid .mid .mid1 .middle ul li {
+    float: left;
+    font-size: 12px;
+    padding: 0 15px;
+    background: url("../img/sprit/alibar.png") no-repeat -16px -150px;
+}
+
+.navMid .mid .mid1 .middle ul li.special {
+    background: none;
+}
+
+.navMid .mid .mid1 .middle ul li.special a {
+    color: #ff7300;
+}
+
+.navMid .mid .mid1 .middle div input {
+    width: 536px;
+    height: 24px;
+    border: 2px solid #ccc;
+    padding: 6px 110px 6px 10px;
+}
+
+.navMid .mid .mid1 .middle div {
+    position: relative;
+}
+
+.navMid .mid .mid1 .middle div button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 98px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff500b;
+}
+
+.navMid .mid .mid1 .middle div button a {
+    float: none;
+    color: #fff;
+}
+
+.navMid .mid .mid1 a.price {
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+    padding: 5px 0;
+    margin: 21px 0 0 20px;
+}
+
+.navMid .mid .mid1 a.code {
+    text-align: center;
+    float: right;
+    font-size: 12px;
+    width: 100px;
+    height: 85px;
+    background: url("../img/sprit/homepage.png") no-repeat -155px -540px;
+}
+
+.navMid .mid .mid1 a.code:hover .bigCode {
+    display: block;
+}
+
+.navMid .mid .mid1 a.code .bigCode {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 140px;
+    height: 190px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    padding: 10px;
+}
+
+.navMid .mid .mid1 a.code .bigCode span {
+    height: 20px;
+    line-height: 20px;
+}
+
+.navMid .mid .mid1 a.code .bigCode .bigCode_img {
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+    background: url("../img/sprit/homepage.png") no-repeat 0 -840px;
+}
+
+.navMid .mid .mid2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navMid .mid .mid2 .left {
+    float: left;
+    padding-left: 39px;
+    width: 141px;
+    color: #ffcec4;
+    background: #ff500b url("../img/sprit/homepage.png") no-repeat -270px -60px;
+}
+
+.navMid .mid .mid2 ul.right {
+    float: left;
+    width: 886px;
+    height: 40px;
+    padding: 0 62px;
+    background-color: #ff7300;
+}
+
+.navMid .mid .mid2 ul.right li {
+    float: left;
+    padding: 0 15px;
+    margin: 0 2px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navMid .mid .mid2 ul.right li span {
+    display: none;
+}
+
+.navMid .mid .mid2 ul.right li.special {
+    width: 2px;
+    height: 40px;
+    cursor: none;
+    background: url("../img/sprit/alibar.png") no-repeat 0 -168px;
+}
+
+.fixedRight {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #e6e6e6;
+    width: 36px;
+    height: 100%;
+}
+
+.fixedRight .part1 ul li img.me {
+    display: block;
+    margin-left: 2px;
+    width: 32px;
+    height: 32px;
+}
+
+.fixedRight .part1 ul li {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 12px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.fixedRight .part1 ul li span {
+    display: block;
+    margin: 3px 0;
+}
+
+.fixedRight .part1 ul li div.sp1 {
+    width: 36px;
+    height: 20px;
+    background: url("../img/fixed/2172383_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part1 ul li div.sp2 {
+    width: 36px;
+    height: 20px;
+    background: url("../img/fixed/2174403_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part1 ul li div.sp3 {
+    width: 36px;
+    height: 20px;
+    background: url("../img/fixed/2182371_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part1 ul li:hover {
+    background-color: #ff7300;
+}
+
+.fixedRight .part1 ul li.icon1:hover .sp1, .fixed .part1 ul li.icon2:hover .sp2, .fixed .part1 ul li.icon3:hover .sp3 {
+    background-position: -36px 0;
+}
+
+.fixedRight .part2 ul li {
+    margin: 1px;
+    cursor: pointer;
+    padding: 12px 0;
+}
+
+.fixedRight .part2 ul li div.sp1 {
+    width: 36px;
+    height: 36px;
+    background: url("../img/fixed/2569027_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part2 ul li div.sp2:hover, .fixed .part2 ul li div.sp3:hover {
+    background-position: -36px 0;
+}
+
+.fixedRight .part2 ul li div.sp2 {
+    width: 36px;
+    height: 36px;
+    background: url("../img/fixed/2559741_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part2 ul li div.sp3 {
+    width: 36px;
+    height: 36px;
+    background: url("../img/fixed/2192303_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part3 {
+    cursor: pointer;
+    width: 36px;
+    height: 60px;
+    background: url("../img/fixed/2183353_1513159559.png") no-repeat 0 0;
+}
+
+.fixedRight .part1 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-color: #e6e6e6;
+    z-index: 999;
+    zoom: 1;
+}
+
+.fixedRight .part2 {
+    position: absolute;
+    bottom: 63px;
+    left: 0;
+    background-color: #e6e6e6;
+}
+
+.fixedRight .part3 {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background-color: #e6e6e6;
+}
+
+.fixedTop {
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    z-index: 1999;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fixedTop .fixedTopIn {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.fixedTop .fixedTopIn a.logo {
+    width: 165px;
+    height: 38px;
+    background: url("../img/logo/2510977_1073447813.png") no-repeat;
+    background-size: 158px auto;
+    float: left;
+    margin-top: 10px;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content {
+    float: left;
+    width: 900px;
+    margin-top: 7px;
+    margin-left: 102px;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content div.fixedTop_content_left {
+    float: left;
+    width: 642px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid #ff500b;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content div.fixedTop_content_left .topChoice {
+    float: left;
+    width: 77px;
+    height: 30px;
+    text-align: center;
+    background: pink;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content div.fixedTop_content_left .topBtn {
+    float: left;
+    border: none;
+    width: 565px;
+    height: 100%;
+    background: yellow;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content div.fixedTop_content_right {
+    float: left;
+}
+
+.fixedTop .fixedTopIn div.fixedTop_content div.fixedTop_content_right button {
+    display: block;
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    background-color: #ff500b;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+.body {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.body div.bodyFir {
+    width: 100%;
+    overflow: hidden;
+}
+
+.body .bodyFir .left {
+    position: relative;
+    float: left;
+    padding: 9px 0;
+    width: 178px;
+    height: 453px;
+    font-size: 14px;
+    border: 1px solid #e2e2e2;
+    background-color: #f8f8f8;
+}
+
+.body .bodyFir .left ul.leftFir_ul li {
+    height: 33px;
+    line-height: 33px;
+}
+
+.body .bodyFir .left ul.leftFir_ul li:hover {
+    color: #fff;
+}
+
+.body .bodyFir .left ul.leftFir_ul li:hover a {
+    color: #fff;
+}
+
+.body .bodyFir .left ul.leftFir_ul li a:hover {
+    color: #FFA16E;
+}
+
+.body .bodyFir .left ul.leftFir_ul li i {
+    float: left;
+    display: block;
+    width: 38px;
+    height: 33px;
+    background: url("../img/sprit/homepage.png") no-repeat 0 100px;
+}
+
+.body .bodyFir .left div.details {
+    position: absolute;
+    left: -1000px;
+    top: 0;
+    width: 820px;
+    height: 560px;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.body .bodyFir .left div.details div.detailL {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -500px;
+    float: left;
+    width: 500px;
+    height: 100%;
+    background: #fff;
+    z-index: 1002;
+}
+
+.body .bodyFir .left div.details div.detailL div {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.body .bodyFir .left div.details div.detailL div h1 {
+    float: left;
+    margin: 39px 0 0 30px;
+    border-left: 5px solid #ff7300;
+    height: 20px;
+    padding-left: 12px;
+    color: #000;
+    font-weight: 400;
+}
+
+.body .bodyFir .left div.details div.detailL div h1 a, .body .bodyFir .left div.details div.detailL div h1 span {
+    float: left;
+    display: block;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.body .bodyFir .left div.details div.detailL div h2 {
+    float: left;
+    width: 430px;
+    height: 18px;
+    margin: 37px 0 0 30px;
+    border-bottom: 1px solid #ff7300;
+    padding-bottom: 8px;
+}
+
+.body .bodyFir .left div.details div.detailL div h2 a {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    height: 18px;
+    line-height: 18px;
+}
+
+.body .bodyFir .left div.details div.detailL div ul {
+    margin: 9px 0 -15px 30px;
+    width: 455px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.body .bodyFir .left div.details div.detailL div ul li {
+    display: block;
+    float: left;
+    margin: 0 25px 12px 0;
+    font-size: 12px;
+}
+
+.body .bodyFir .left div.details div.detailL div ul li.special a {
+    color: #ff7300;
+}
+
+.body .bodyFir .left div.details div.detailL div ul li a {
+    color: #222;
+}
+
+.body .bodyFir .left div.details div.detailR {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -320px;
+    float: left;
+    width: 320px;
+    height: 100%;
+    /*background: lightblue;*/
+    z-index: 1001;
+}
+
+.body .bodyFir .left div.details div.detailR a.close {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    opacity: .2;
+    filter: alpha(opacity=20);
+    background: #000 url("../img/sprit/homepage.png") no-repeat 6px -1273px;
+    z-index: 1005;
+}
+
+.body .bodyFir .left div.details div.detailR div {
+    width: 289px;
+    height: 549px;
+    background: #f8f8f8;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 1001;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 6px 6px 6px -6px #e2e2e2;
+
+}
+
+.body .bodyFir .center {
+    float: left;
+    width: 800px;
+    height: 550px;
+}
+
+.body .bodyFir .center .outer {
+    position: relative;
+    width: 760px;
+    height: 300px;
+    margin: 20px 20px 0;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.body .bodyFir .center .outer a {
+    display: block;
+    text-underline: none;
+}
+
+.body .bodyFir .center .outer .imgFir {
+    position: absolute;
+    left: -760px;
+    top: 0;
+}
+
+.body .bodyFir .center .outer .imgSec {
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+
+.body .bodyFir .center .outer .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4560px;
+    height: 300px;
+}
+
+.body .bodyFir .center .outer .inner img {
+    float: left;
+    width: 760px;
+    height: 300px;
+}
+
+.body .bodyFir .center .outer .tip {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.body .bodyFir .center .outer .tip li {
+    float: left;
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #e2e2e2;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.body .bodyFir .center .outer .tip li.bg {
+    background: orangered;
+}
+
+.body .bodyFir .center .outer a {
+    display: none;
+    width: 36px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.body .bodyFir .center .outer a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.body .bodyFir .center .outer a.outer_left {
+    left: 10px;
+    background: url("../img/sprit/homepage.png") no-repeat -236px -1230px;
+}
+
+.body .bodyFir .center .outer a.outer_right {
+    right: 10px;
+    background: url("../img/sprit/homepage.png") no-repeat -273px -1230px;
+}
+
+.body .bodyFir .center .cenDown {
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+.body .bodyFir .center .cenDown a.cenDown_left {
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    margin-top: -20px;
+    background: url("../img/sprit/homepage.png") no-repeat -81px -1316px;
+}
+
+.body .bodyFir .center .cenDown a.cenDown_right {
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    margin-top: -20px;
+    background: url("../img/sprit/homepage.png") no-repeat -280px -1129px;
+}
+
+.body .bodyFir .center .cenDown div.sale {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 25px;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a {
+    display: block;
+    float: left;
+    margin: 15px 5px 0;
+    overflow: hidden;
+    width: 140px;
+    height: 200px;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a div {
+    position: absolute;
+    bottom: 15px;
+    background-color: #fff;
+    text-align: center;
+    width: 140px;
+
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a div p {
+    height: 15px;
+    line-height: 15px;
+    padding: 6px 0;
+    color: #000;
+}
+
+.body .bodyFir .center .cenDown div.sale div.saleIn a div p.special {
+    color: #ff7300;
+}
+
+.body .bodyFir .right {
+    float: left;
+    border: 1px solid #e2e2e2;
+    margin-top: 20px;
+    width: 208px;
+    height: 530px;
+}
+
+.body .bodyFir .right .rigFir .top {
+    height: 57px;
+    width: 100%;
+    padding: 7px 0 0 12px;
+}
+
+.body .bodyFir .right .rigFir .top img {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.body .bodyFir .right .rigFir .top span {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+
+.body .bodyFir .right .rigFir .top span.special {
+    color: #888;
+}
+
+.body .bodyFir .right .rigFir .bottom {
+    height: 46px;
+}
+
+.body .bodyFir .right .rigFir .bottom a {
+    float: left;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    color: #222;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    border-left: none;
+}
+
+.body .bodyFir .right .rigFir .bottom a.botL {
+    width: 91px;
+    padding-left: 13px;
+    background: url("../img/sprit/homepage.png") no-repeat 29px -620px;
+}
+
+.body .bodyFir .right .rigFir .bottom a.botR {
+    width: 87px;
+    padding-left: 16px;
+    border-right: none;
+    background: url("../img/sprit/homepage.png") no-repeat -161px -488px;
+}
+
+.body .bodyFir .right .rigSec {
+    height: 140px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.body .bodyFir .right .rigSec ul {
+
+}
+
+.body .bodyFir .right .rigSec ul.up {
+    padding: 10px 12px 0;
+    height: 32px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.body .bodyFir .right .rigSec ul.up li {
+
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0 5px;
+    float: left;
+}
+
+.body .bodyFir .right .rigSec ul.up li a {
+    color: #888;
+}
+
+.body .bodyFir .right .rigSec ul.up li a:hover {
+    color: #ff7300;
+}
+
+.body .bodyFir .right .rigSec ul.up li.special {
+    border-bottom: 1px solid #ff7300;
+}
+
+.body .bodyFir .right .rigSec ul.down {
+    position: relative;
+    height: 83px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 10px;
+}
+
+.body .bodyFir .right .rigSec ul.down li.downP {
+    display: none;
+    width: 188px;
+    height: 83px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.body .bodyFir .right .rigSec ul.down li.special {
+    display: block;
+}
+
+.body .bodyFir .right .rigSec ul.down li ul li {
+    height: 28px;
+    line-height: 28px;
+}
+
+.body .bodyFir .right .rigThi {
+    height: 38px;
+    padding-top: 10px;
+    border-bottom: 1px solid #e7e7e7;
+
+}
+
+.body .bodyFir .right .rigThi a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 32px;
+}
+
+.body .bodyFir .right .rigThi a.one {
+    background: url("../img/sprit/homepage.png") no-repeat -62px -1007px;
+}
+
+.body .bodyFir .right .rigThi a.two {
+    background: url("../img/sprit/homepage.png") no-repeat -122px -1007px;
+}
+
+.body .bodyFir .right .rigThi a.three {
+    background: url("../img/sprit/homepage.png") no-repeat -182px -1007px;
+}
+
+.body .bodyFir .right .rigFou {
+    padding: 0 12px;
+    font-size: 12px;
+    height: 191px;
+    border-bottom: 1px solid #e7e7e7;
+
+}
+
+.body .bodyFir .right .rigFou span {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+
+}
+
+.body .bodyFir .right .rigFou ul.number {
+    padding: 9px 0;
+    height: 30px;
+}
+
+.body .bodyFir .right .rigFou ul.number li {
+    display: inline-block;
+    width: 15px;
+    height: 30px;
+    overflow: hidden;
+    background: #fff url("../img/sprit/homepage.png") no-repeat -214px -702px;
+}
+
+.body .bodyFir .right .rigFou ul.number li.special {
+    width: 5px;
+    background: #fff url("../img/sprit/homepage.png") no-repeat -241px -937px;
+}
+
+.body .bodyFir .right .rigFou div.content {
+    width: 184px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.body .bodyFir .right .rigFou div.content ul {
+    height: 240px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.body .bodyFir .right .rigFou div.content ul li a span {
+    height: 24px;
+    line-height: 24px;
+    color: #000;
+}
+
+.body .bodyFir .right .rigFou div.content ul li a span.sL {
+    float: left;
+    overflow: hidden;
+    width: 124px;
+}
+
+.body .bodyFir .right .rigFou div.content ul li a span.sR {
+    float: right;
+    width: 60px;
+    text-align: right;
+}
+
+.body .bodyFir .right ul.rigFif {
+    padding: 0 12px;
+    height: 38px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.body .bodyFir .right ul.rigFif li {
+    float: left;
+    padding-left: 18px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+}
+
+.body .bodyFir .right ul.rigFif li.rigFif_left {
+    background: url("../img/sprit/homepage.png") no-repeat -192px 13px;
+}
+
+.body .bodyFir .right ul.rigFif li.rigFif_middle {
+    background: url("../img/sprit/homepage.png") no-repeat -189px -14px;
+}
+
+.body .bodyFir .right ul.rigFif li.rigFif_right {
+    background: url("../img/sprit/homepage.png") no-repeat -286px 13px;
+}
+
+/*bodySec*/
+.body .bodySec {
+    width: 1190px;
+    border-top: 1px solid #ff7300;
+    margin-top: 20px;
+    padding: 22px 0 20px 0;
+    overflow: hidden;
+}
+
+.body .bodySec a {
+    color: #222;
+    font-size: 12px;
+}
+
+.body .bodySec a:hover {
+    color: #ff7300;
+}
+
+.body .bodySec div.marketItem {
+    float: left;
+    height: 46px;
+    overflow: hidden;
+}
+
+.body .bodySec div.yunshichang {
+    width: 281px;
+}
+
+.body .bodySec div.chanyedai {
+    width: 448px;
+    padding-left: 20px;
+}
+
+.body .bodySec div.theme {
+    margin-left: 14px;
+    width: 420px;
+}
+
+.body .bodySec div.marketItem a.marketTitle {
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.body .bodySec div.yunshichang a.marketTitle, .body .bodySec div.chanyedai a.marketTitle {
+    width: 48px;
+    margin-top: 12px;
+}
+
+.body .bodySec div.theme a.marketTitle {
+    margin-top: 4px;
+}
+
+.body .bodySec div.marketItem div.marketLinks {
+    float: left;
+}
+
+.body .bodySec div.yunshichang div.marketLinks {
+    width: 223px;
+}
+
+.body .bodySec div.chanyedai div.marketLinks {
+    width: 400px;
+}
+
+.body .bodySec div.theme div.marketLinks {
+    width: 370px;
+    padding-left: 15px;
+}
+
+.body .bodySec div.marketItem div.marketLinks a {
+    display: inline-block;
+    height: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.body .bodySec div.yunshichang div.marketLinks a {
+    width: 86px;
+    margin-left: 20px;
+}
+
+.body .bodySec div.chanyedai div.marketLinks a {
+    width: 76px;
+    margin-left: 20px;
+}
+
+.body .bodySec div.theme div.marketLinks a {
+    width: 76px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
